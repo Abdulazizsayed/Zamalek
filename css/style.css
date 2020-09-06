@@ -1,0 +1,784 @@
+body
+{
+	background-color:#DDD;
+	margin-top:0;
+	scrollbar-color:red yellow
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #CD2122;
+  outline: 1px solid #CD2122;
+}
+
+.parent
+{
+	background-color:#FFF;
+	height:2700px;
+	width:68%;
+	margin-left:16%;
+	box-shadow: 0px 0 15px -4px #000, 0px 0 8px -4px #000;
+}
+
+.parent .a5erEla5bar
+{
+background-color: #333;
+border-bottom: 4px solid #cd2122;
+height:30px;
+}
+
+.parent .a5erEla5bar .searchDiv{
+	height:150px;
+	position:relative;
+	width:210px;
+	float:left
+}
+
+.parent .a5erEla5bar a{
+	color:#888888
+}
+
+.parent .a5erEla5bar a i{
+	font-size:20px;
+	margin-top:5px;
+	margin-left:5px
+}
+
+.parent .a5erEla5bar .searchDiv .search
+{
+	background-color:#3c3c3c;
+	height:30px;
+	margin-left:50px;
+	border:none;
+	padding-right:10px;
+	width:150px;
+	text-align:right;
+	color:#888
+}
+
+.parent .a5erEla5bar .searchDiv .search:hover{
+	color:#FFF
+}
+
+.parent .a5erEla5bar .searchDiv i{
+	display:block;
+	margin-left:50px;
+	position:absolute;
+	top:5.5px;
+	left:8px;
+	color:#888
+}
+
+.parent .a5erEla5bar a i:hover{
+	color:#FFF;
+	cursor:pointer
+}
+
+.search::-webkit-input-placeholder{
+	color:#888;
+	text-align:right
+}
+
+.search:-ms-input-placeholder{
+	color:#888;
+	text-align:right
+}
+
+.search::placeholder{
+	color:#888;
+	text-align:right
+}
+
+.search:hover::-webkit-input-placeholder{
+	color:#FFF
+}
+
+.search:hover:-ms-input-placeholder{
+	color:#FFF
+}
+
+.search:hover::placeholder{
+	color:#FFF
+}
+
+.parent .a5erEla5bar .dynamicNews{
+	float:right;
+	margin-right: 50px;
+	margin-top:7px;
+	margin-top:0;
+	height:30px
+}
+
+.parent .a5erEla5bar .dynamicNews span{
+	background-color:#CD2122;
+	display:inline-block;
+	height:80%;
+	padding:7px 10px 0 10px;
+	color:#FFF;
+	font-weight:bold;
+	float:right
+}
+
+.parent .a5erEla5bar .dynamicNews #dynamic{
+	float:right;
+	color:#888;
+	margin-top:5px;
+	text-align:right;
+	direction:rtl;
+	margin-right:10px;
+}
+
+.parent .a5erEla5bar .dynamicNews #dynamic:hover{
+	color:#FFF;
+	cursor:pointer
+}
+
+.sitephoto
+{
+height:170px;
+}
+
+.sitephoto img
+{
+float:right;
+margin:40px
+}
+
+ul li a
+{
+color:#000;
+text-decoration:none;
+}
+
+.menu ul li
+{
+list-style-type:none;
+border-left:1px solid #000;
+border-right:1px solid #000;
+border-bottom:4px solid #cd2122;
+padding-left:13px;
+padding-right:13px;
+text-align:center;
+height:40px;
+padding-top:15px;
+background-color:#E6ECF0;
+font-size:22px;
+cursor:pointer;
+float:right;
+}
+
+.menu ul li a:hover
+{
+color:#FFF
+}
+
+.menu ul
+{
+margin-right:40px;
+margin-top:0;
+}
+
+.parent .leftSide{
+	width:32%;
+	margin-left:44px;
+	margin-right:3px;
+	margin-top:40px;
+	float:left
+}
+
+.parent .leftSide .zamVideo .vidZam{
+	float:left;
+	background-color:#A8020C;
+	width:100%;
+	text-align:center;
+	color:#FFF;
+	margin-bottom:20px;
+}
+
+.parent .leftSide .zamVideo iframe{
+	float:left;
+	width:100%;
+	height:250px;
+	border:none
+}
+
+.parent .leftSide .nMatch .matchN{
+	float:left;
+	background-color:#A8020C;
+	width:100%;
+	text-align:center;
+	color:#FFF;
+	margin-top:20px;
+	margin-bottom:0
+}
+
+.parent .leftSide .nMatch .nextMatch{
+	margin-top:0;
+	margin-bottom:0	px;
+	background-color:#23282D;
+	width:100%;
+	float:left;
+	color:#FFF
+}
+
+.parent .leftSide .nMatch .nextMatch h2{
+	margin:0;
+	float:left;
+	margin-left:12px;
+	margin-top:50px
+}
+
+.parent .leftSide .nMatch .nextMatch .zam{
+	margin:0px 55px 10px 0;
+	float:right
+}
+
+.parent .leftSide .nMatch .nextMatch .nejm{
+	margin:0px 140px 10px 0;
+	float:right
+}
+
+.parent .leftSide .nMatch .stadium{
+	background-color:#394149;
+	margin-top:0;
+	float:left;
+	width:100%;
+	border-bottom: 4px solid #cd2122;
+	margin-bottom: 20px
+}
+
+.parent .leftSide .nMatch .stadium h4{
+	text-align:center;
+	direction:rtl;
+	color:#FFF
+}
+
+.parent .leftSide .nMatch .nextMatch img{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	margin-top:30px;
+	margin-bottom:15px
+}
+
+.parent .leftSide  .leagueSchedule div{
+	float:left;
+	background-color:#A8020C;
+	width:100%;
+	text-align:center;
+	color:#FFF;
+	margin-bottom:20px
+}
+
+.parent .leftSide  .leagueSchedule table{
+	float:left;
+	width:100%;
+	border-collapse:collapse;
+	direction:rtl
+}
+
+.parent .leftSide  .leagueSchedule table td{
+	border:2px solid #000;
+	background-color:#2C2C2C;
+	color:#FFF;
+	text-align:center;
+	padding: 7px 5px;
+	font-weight:bold
+}
+
+.parent .rightSide{
+	margin-right:39px;	
+	margin-top:40px;
+	width:54%;
+	float:right;
+	padding-left:0;
+}
+
+.parent .rightSide img:hover,
+.parent .rightSide .footballNews .mainNews:hover,
+.parent .videos .vid1:hover,
+.parent .videos .vid2 img:hover,
+.parent .videos .vid img:hover{
+	opacity:0.5;
+	cursor:pointer
+}
+
+.parent .rightSide a{
+	margin-right:0;
+	padding:0
+}
+
+.parent .rightSide a .a5par{
+	background-image:url('../images/train.jpg');
+	background-repeat:no-repeat;
+	background-size:550px 400px;
+	width:100%;
+	float:right;
+	margin-right:0
+}
+
+.parent .rightSide a .a5par ul{
+	list-style:none;
+	margin-top:20px
+}
+
+.parent .rightSide a .a5par ul li{
+	background-color:#999;
+	width:7px;
+	height:7px;
+	border-radius:7px;
+	float:left;
+	margin-left:3px;
+}
+
+.parent .rightSide a .a5par ul li:hover{
+	background-color:#D4D4D4;
+	cursor:pointer
+}
+
+.parent .rightSide a .a5par h2{
+	color:#FFF;
+	float:right;
+	direction:rtl;
+	text-align:right;
+	background-color:#CB2B2B;
+	opacity:0.7;
+	margin-right:15px;
+	margin-top:220px;
+	margin-bottom:0;
+	padding:10px;
+	font-weight:bold
+}
+
+.parent .rightSide a .a5par p{
+	color:#FFF;
+	float:right;
+	direction:rtl;
+	text-align:right;
+	background-color:#000;
+	opacity:0.7;
+	margin-right:15px;
+	margin-left:15px;
+	margin-top:0;
+	padding:10px;
+	font-size:15px;
+	font-weight:bold
+}
+
+.parent .rightSide .footballNews{
+	width:100%;
+	border-top:4px solid #cd2122;
+	margin-top:20px;
+	float:right
+}
+
+.parent .rightSide .footballNews .mainNews{
+	float:right;
+	background-image:url('../images/train.jpg');
+	width:50%;
+	height:170px;
+	background-size:100% 100%;
+	margin-left:20px;
+	margin-bottom:20px
+}
+
+.parent .rightSide .footballNews .mainNews span{
+	float:right;
+	background-color:#cd2122;
+	padding:3px 10px;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold
+}
+
+.parent .rightSide .footballNews h2:hover,
+.parent .rightSide .sub-news h4:hover,
+.parent .videos .vid h4:hover,
+.parent .videos .vid2 h4:hover,
+.parent .videos .vid1 h4:hover{
+	color:#000;
+	cursor:pointer
+}
+
+/*.comment:hover{
+	color:#000;
+	border-bottom:1px dotted #000;
+	cursor:pointer;
+	margin-bottom:0
+}*/
+
+.parent .rightSide .footballNews h2{
+	text-align:right;
+	color:#444
+}
+
+.parent .rightSide .footballNews i{
+	float:right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:3px
+}
+
+.parent .rightSide .footballNews span{
+	float: right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:10px;
+	direction:rtl;
+}
+
+.parent .rightSide .footballNews button{
+	float:right;
+	background-color:#cd2122;
+	border:none;
+	margin-top:30px;
+	color:#FFF;
+	padding:3px 7px;
+	direction:rtl;
+	font-weight:bold
+}
+
+.parent .rightSide .footballNews button:hover{
+	background-color:#444;
+	cursor:pointer
+}
+
+.parent .rightSide hr{
+	background-color:#B0B0B0;
+	border:0.5px solid #B0B0B0
+}
+
+.parent .rightSide .sub-news{
+	width:50%;
+	float:right;
+	border-bottom:0.5px solid #B0B0B0;
+	padding-bottom:30px;
+	margin-top:5px
+}
+
+.parent .rightSide .sub-news img{
+	width:70px;
+	height:70px;
+	float:right;
+	margin-left:20px
+}
+
+.parent .rightSide .sub-news h4{
+	text-align:right;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#444;
+	font-weight:bold
+}
+
+.parent .rightSide .sub-news i{
+	float:right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:3px;
+}
+
+.parent .rightSide .sub-news span{
+	float: right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:10px;
+	direction:rtl;
+}
+
+.parent .videos{
+	margin-top:1050px;
+	margin-right:37px;
+	margin-left:45px;
+	height:250px;
+	border-top:4px solid #cd2122;
+}
+
+.parent .videos .vid{
+	width:22%;
+	margin-left:1%;
+	margin-right:2.5%;
+	float:right;
+}
+
+.parent .videos .vid img{
+	width:100%;
+	height:60%;
+	float:right
+}
+
+.parent .videos .vid h4{
+	color:#444;
+	text-align:right;
+	float:right
+}
+
+.parent .videos .vid i{
+	float:right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:3px;
+}
+
+.parent .videos .vid span{
+	float: right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:10px;
+	direction:rtl;
+}
+
+.parent .videos .vid1{
+	width:22%;
+	margin-left:1%;
+	height:60%;
+	float:right;
+}
+
+.parent .videos .vid1 div{
+	background-image:url('../images/train.jpg');
+	width:100%;
+	height:100%;
+	float:right;
+	background-repeat:no-repeat;
+	background-size:100% 100%
+}
+
+.parent .videos .vid1 div span{
+	color:#FFF;
+	background-color:#CD2122;
+	margin-left:0;
+	font-size:20px;
+	padding:5px 5px
+}
+
+.parent .videos .vid1 h4{
+	color:#444;
+	text-align:right;
+	float:right
+}
+
+.parent .videos .vid1 i{
+	float:right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:3px;
+}
+
+.parent .videos .vid1 span{
+	float: right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:10px;
+	direction:rtl;
+}
+
+.parent .videos .vid2{
+	width:22%;
+	margin-right:2.5%;
+	float:right;
+}
+
+.parent .videos .vid2 img{
+	width:100%;
+	height:60%;
+	float:right
+}
+
+.parent .videos .vid2 h4{
+	color:#444;
+	text-align:right;
+	float:right
+}
+
+.parent .videos .vid2 i{
+	float:right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:3px;
+}
+
+.parent .videos .vid2 span{
+	float: right;
+	font-size:12px;
+	color:#B0B0B0;
+	margin-left:10px;
+	direction:rtl;
+}
+
+.parent .leftSide .leftSocial .fa-instagram{
+	background-color:#86A6BF;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:23px;
+	margin-left:35px;
+	margin-bottom:30px
+}
+
+.parent .leftSide .leftSocial .fa-instagram:hover{
+	background-color:#517fa4;
+	cursor:pointer
+}
+
+.parent .leftSide .leftSocial .fa-youtube{
+	background-color:#F11;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:20px;
+	padding-top:12px
+}
+
+.parent .leftSide .leftSocial .fa-youtube:hover{
+	background-color:#cc181e;
+	cursor:pointer
+}
+
+.parent .leftSide .leftSocial .fa-Rss{
+	background-color:#f8f815;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:23px
+}
+
+.parent .leftSide .leftSocial .fa-Rss:hover{
+	background-color:#f8bc2e;
+	cursor:pointer
+}
+
+.parent .leftSide .leftSocial .fa-google-plus{
+	background-color:#FA0101;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:23px
+}
+
+.parent .leftSide .leftSocial .fa-google-plus:hover{
+	background-color:#d91010;
+	cursor:pointer
+}
+
+.parent .leftSide .leftSocial .fa-facebook{
+	background-color:#45b0e3;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:23px
+}
+
+.parent .leftSide .leftSocial .fa-facebook:hover{
+	background-color:blue;
+	cursor:pointer
+}
+
+.parent .leftSide .leftSocial .fa-twitter{
+	background-color:#39599F;
+	color:#FFF;
+	padding:10px;
+	border-radius:5px;
+	font-size:23px
+}
+
+.parent .leftSide .leftSocial .fa-twitter:hover{
+	background-color:#7DC8EB;
+	cursor:pointer
+}
+
+.parent .leftSide .photos{
+	background-image:url('../images/train.jpg');
+	width:100%;
+	height:200px;
+	float:right;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-top:70px;
+	text-align:center;
+	margin-bottom:30px
+}
+
+.parent .leftSide .photos span{
+	color:#FFF;
+	float:right;
+	direction:rtl;
+	text-align:right;
+	background-color:#CB2B2B;
+	opacity:0.7;
+	margin-right:15px;
+	margin-top:161px;
+	margin-bottom:0;
+	padding:10px;
+	font-weight:bold
+}
+
+.parent .leftSide .zamVideo .albom{
+	padding-left:10px
+}
+
+.parent .leftSide .zamVideo .albom img{
+	width: 23%;
+	margin:0.5px;
+	height:70px;
+}
+
+.parent .leftSide .zamVideo .albom img:hover{
+	opacity:0.6;
+	cursor:pointer
+}
+
+.parent .footer{
+	margin-top:70px;
+	background-color:#333;
+	border-top:4px solid #CD2122;
+	height:50px;
+	float:left;
+	width:100%
+}
+
+.parent .footer span{
+	display:block;
+	float:right;
+	direction:rtl;
+	color:#FFF;
+	margin:15px 50px 10px 0
+}
+
+.parent .footer a{
+	color:#888;
+	
+}
+
+.parent .footer a i{
+	margin-top:15px;
+	margin-left:10px;
+	font-size:20px
+}
+
+.parent .footer a i:hover{
+	color:#FFF
+}
+
+/*.a5par img
+{
+margin-right:40px;
+margin-top:30px;
+width:650px;
+height:400px;
+float:right;
+}*/
+
+/*.a5par 
+{
+top:400px;
+right:500px
+}*/
